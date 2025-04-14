@@ -15,15 +15,15 @@ pipeline {
 
         }
 
-        stage('Clone') {
+        //stage('Clone') {
 
-           steps {
+          // steps {
 
-              sh 'git clone -b main https://github.com/indugone/nnnn.git'
+            //  sh 'git clone -b main https://github.com/indugone/nnnn.git'
 
-            }
+            //}
 
-        }
+        //}
 
     }
 
